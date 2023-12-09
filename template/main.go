@@ -14,7 +14,7 @@ func main() {
 }
 
 func part1() error {
-	f, err := os.Open("input.txt")
+	f, err := os.Open("input.example.txt")
 	if err != nil {
 		return err
 	}
@@ -29,7 +29,7 @@ func part1() error {
 }
 
 func part2() error {
-	f, err := os.Open("input.txt")
+	f, err := os.Open("input.example.txt")
 	if err != nil {
 		return err
 	}
